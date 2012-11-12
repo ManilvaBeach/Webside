@@ -1,0 +1,418 @@
+/* --- START: Fonter --- ******************************************************/
+@font-face {
+    font-family: 'CollatorRegular';
+    src: url('./../fonts/collator-webfont.eot');
+    src: url('./../fonts/collator-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./../fonts/collator-webfont.woff') format('woff'),
+         url('./../fonts/collator-webfont.ttf') format('truetype'),
+         url('./../fonts/collator-webfont.svg#CollatorRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* --- SLUTT: Fonter --- ******************************************************/
+
+.clear{clear: both;}
+.hidden{ display: none;}
+
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 30px;
+    /*background: url(../images/background-pattern.png) repeat top left;*/
+    background-image: url(../images/beach.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    font: 0.9em Arial,Helvetica,sans-serif;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+
+}
+h1, h2, h3{
+    font-family: 'CollatorRegular', Arial,Helvetica,sans-serif;
+    color: #9CA998;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+p{
+    line-height: 1.3em;
+}
+
+p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, textarea, img{
+    font: 0.8em Arial,Helvetica,sans-serif;
+    color: #222222;
+}
+
+p2{
+    font: 0.7em Arial,Helvetica,sans-serif;
+    color: #ffffff;
+}
+p
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: #9CA998;
+}
+
+/* --- start: Header --- ******************************************************/
+#main-wrapper{
+    margin:0px auto;
+    width: 1040px;
+    text-align:left;
+    border: 1px solid #6A7073;
+    background-color: white;
+    padding: 0px;
+    -webkit-box-shadow: 0 10px 20px 8px #888;
+    -moz-box-shadow: 0 10px 20px 8px #888;
+    box-shadow: 0 10px 20px 8px #888;
+}
+
+body > #main-wrapper { 
+    height: auto; 
+    min-height: 100%; 
+}
+
+#outer_header{
+    background-color: #6A7073;
+    width: 100%;
+    border-bottom: 4px solid #9CA998;
+}
+
+#inner_header{
+    background-color: #6A7073;
+    width: 990px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+#inner_header #logo{
+    margin: 22px 0px 0px 0px;
+    float: left;
+}
+
+
+/* --- SLUTT: Header --- ******************************************************/
+
+
+/* --- START: Hovedareal --- **************************************************/
+/* --- START: Main-box --- ****************************************************/
+#content{
+    width: 1040px;
+    min-height: 400px;
+    background-color: white;
+}
+
+#content img {
+    float: right;
+}
+
+#content p {
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.main-box{
+    width: 500px;
+    padding: 0px 15px;
+    float:left;   
+    background-color: white;
+    margin-left: 22px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;   
+    height: 400px;
+}
+
+.left-house-box{
+    width: 478px;
+    height: 100px;
+    margin-left: 22px;
+    margin-top: 20px;
+	margin-right: 15px;
+    float:left;   
+    background-color: white;  
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;   
+    border: 2px solid #9CA998;
+    
+}
+
+.left-house-box2{
+    width: 200px;
+    height: 100px;
+    margin-left: 22px;
+    margin-top: 20px;
+	margin-right: 15px;
+    float:left;   
+    background-color: white;  
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;   
+    border: 2px solid #9CA998;
+    
+}
+
+.right-house-box{
+    width: 478px;
+    height: 100px;
+    margin-right: 22px;
+    margin-top: 20px;
+    float:right;   
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;   
+    border: 2px solid #9CA998;
+    
+}
+
+/* --- START: Logg inn-box ---*/
+
+.login-box{
+    padding: 0px 40px;
+    width: 280px;
+    float:left;   
+    background-color: white;   
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;   
+    height: 230px;
+    border: solid 4px #9CA998;
+    margin-top: 65px;
+    margin-left: 330px;
+}
+
+/* --- SLUTT: Logg inn-box ---*/
+
+/* --- START: Side-box --- ****************************************************/
+#side-box{
+    width: 400px;
+    height: 400px;
+    float: right;
+    background-color: white;  
+}
+
+#side-box img {
+    border-left: 1px solid #000;
+}
+
+#side-box ul{
+    list-style: none;
+    padding-left: 0px;
+    font-family: arial, verdana, sans-serif;
+    font-size: 1.0em;
+}
+#side-box ul li{
+    display: block;
+    -moz-border-radius: 5px;  
+    -khtml-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    background-color: #f7f7f7;
+    border: 1px solid #d8d8d8;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;  
+    min-height: 57px;
+    height: auto;
+}
+#side-box ul li:hover{
+    border-color: #9CA998;
+}
+#side-box ul li span{
+    width: 65px;
+    height: 20px;
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: 16px 12px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 37px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+}
+
+#side-box ul li h3{
+    float: left;
+    margin: 3px 0px;
+    font-size: 1.5em;
+}
+#side-box ul li p{
+    float: left;
+    width: 160px;
+    font-size: 1.2em;
+    margin: 3px 0px;
+}
+/* --- SLUTT: Side-box --- ****************************************************/
+/* --- SLUTT: Hovedareal --- **************************************************/
+
+
+/* --- START: Footer --- ******************************************************/
+
+#outer-footer{
+    position:relative;
+    bottom:0;
+    width: 1040px;
+    background-color: #6A7073;
+    height: 80px;
+    border-top: 4px solid #9CA998;
+}
+
+#inner-footer{
+    width: 990px;
+    margin: 10px auto;  
+    text-align: center;   
+    color: white;
+}
+
+#inner-footer ul{
+    list-style: none;
+    text-align: left;
+}
+
+#inner-footer ul li{
+    margin-top: 20px;
+    font-size: 0.9em;
+    padding: 10px 0px 20px 80px;
+    margin-right: 30px;
+    color: white;
+    display: block;
+    float: left;
+}
+   
+/* --- SLUTT: Footer --- ******************************************************/
+
+
+
+/* --- START DROPDOWN --- *****************************************************/
+.cssmenu ul {
+    width: 975px;
+    margin: 0;
+    padding: 30px 20px 0; 
+    background: #6A7073; 
+    line-height: 100%; 
+    font-size: 15pt; 
+}
+
+.cssmenu li {
+    margin: 0 5px; 
+    padding: 0 0 8px; 
+    padding-left: 20px;
+    float: left; 
+    position: relative; 
+    list-style: none; 
+}
+
+.cssmenu a {
+    font-weight: normal; 
+    color: #e7e5e5; 
+    text-decoration: none; 
+    display: block; 
+    padding:  8px 20px; 
+    margin: 0;  
+    text-shadow: 0 1px 1px rgba(0,0,0, .3);
+}
+
+.cssmenu a:hover {
+    background: #9CA998; 
+    color: #fff;
+}
+
+.cssmenu .active a, 
+
+.cssmenu li:hover > a {
+    background: #6A7073; 
+    color: #fff;  
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2); 
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0, .2); 
+    box-shadow: 0 1px 1px rgba(0,0,0, .2); 
+    text-shadow: 0 1px 0 rgba(255,255,255, 1); 
+    border-top: solid 2px #9CA998; 
+}
+
+.cssmenu ul ul li:hover a,
+
+.cssmenu li:hover li a {
+    background: none; 
+    border: none; 
+    font-weight: normal;
+    color: #e7e5e5; 
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none;
+    text-shadow: 0 1px 1px rgba(0,0,0, .1);
+}
+
+.cssmenu ul ul a:hover {
+    background: #9CA998 url(images/overlay.png) repeat-x 0 -100px !important;
+    color: #fff !important; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+}
+
+.cssmenu li:hover > ul {
+    display: block;
+    border: solid 2px #9CA998; 
+    left: 0;
+    right: auto;
+}
+
+.cssmenu li li:hover > ul {
+    left: 100%;
+    right: auto !important;
+    margin-top: -38px;
+}
+
+.cssmenu ul ul {
+    display: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 185px; 
+    position: absolute; 
+    top: 40px; 
+    left: 0; 
+    background: #6A7073; 
+    /*margin-left: 15px;*/
+    font: 1.1em Arial,Helvetica,sans-serif;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0, .3); 
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0, .3); 
+    box-shadow: 0 1px 3px rgba(0,0,0, .3);
+}
+
+.cssmenu ul ul li {
+    float: none; 
+    margin: 0; 
+    padding: 3px;
+}
+
+.cssmenu ul ul a {
+    font-weight: normal; 
+    text-shadow: 0 1px 0 #fff; 
+}
+
+.cssmenu ul:after {
+    content: '.'; 
+    display: block; 
+    clear: both; 
+    visibility: hidden; 
+    line-height: 0; 
+    height: 0;
+    color: #e7e5e5;
+}
+
+* html .cssmenu  ul {
+    height: 1%;
+}
+
+/* --- SLUTT: DROPDOWN --- ****************************************************/
